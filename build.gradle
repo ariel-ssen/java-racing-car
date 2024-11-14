@@ -10,6 +10,9 @@ repositories {
 }
 
 dependencies {
+    testImplementation 'org.mockito:mockito-inline:4.8.0'
+    testImplementation "org.mockito:mockito-junit-jupiter:3.9.0"
+
     testImplementation "org.junit.jupiter:junit-jupiter:5.7.2"
     testImplementation "org.assertj:assertj-core:3.19.0"
 }
